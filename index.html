@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div id="calc-background">
+      <header class="row">
+        <div class="col-xs-12">
+          <div id="console">
+            <h2 class="console">0</h2>
+          </div>
+        </div>
+      </header>
+      <subject class="row">
+        <div class="col-xs-3">
+          <div class="all-clear">
+            <button class="clear">AC</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="plus-minus">
+            <button class="either">+/-</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="percentage">
+            <button class="percent">%</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="division">
+            <button data-ops="devided-by" class="ops">/</button>
+          </div>
+        </div>
+      </subject>
+      <subject class="row">
+        <div class="col-xs-3">
+          <div class="seven">
+            <button class="number" data-num="7">7</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="eight">
+            <button class="number" data-num="8">8</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="nine">
+            <button class="number" data-num="9">9</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="multiply">
+            <button data-ops="times" class="ops">*</button>
+          </div>
+        </div>
+      </subject>
+      <subject class="row">
+        <div class="col-xs-3">
+          <div class="six">
+            <button class="number" data-num="6">6</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="five">
+            <button class="number" data-num="5">5</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="four">
+            <button class="number" data-num="4">4</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="subtraction">
+            <button data-ops="minus" class="ops">-</button>
+          </div>
+        </div>
+      </subject>
+      <subject class="row">
+        <div class="col-xs-3">
+          <div class="one">
+            <button class="number" data-num="1">1</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="two">
+            <button class="number" data-num="2">2</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="three">
+            <button class="number" data-num="3">3</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="addition">
+            <button data-ops="plus" class="ops">+</button>
+          </div>
+        </div>
+      </subject>
+      <subject class="row">
+        <div class="col-xs-6">
+          <div class="zero">
+            <button class="none" data-num="0">0</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="decimal">
+            <button class="dec">.</button>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="equals">
+            <button id="equals" class="equals" data-result="">=</button>
+          </div>
+        </div>
+      </subject>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$container-large-desktop: 450px;
+$grid-gutter-width: 40px;
+$grid-gutter-height: 40px;
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+button {
+  width: 60px;
+  height: 60px;
+}
+
+#console {
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+
+#calc-background {
+  background-color: rgb(76, 76, 76);
+}
+
+.number {
+  width: 95px;
+}
+
+.clear {
+  width: 95px;
+}
+
+.either {
+  width: 95px;
+}
+
+.percent {
+  width: 95px;
+}
+
+.none {
+  width: 198px;
+}
+
+.dec {
+  width: 95px;
+}
